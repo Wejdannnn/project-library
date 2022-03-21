@@ -103,13 +103,9 @@ Foreign Key (Id_Catalog) References Catalog_Service(Id) On Delete Cascade
 );
 
 
-
-View :
-
 Create View Vbookstatus As 
 Select * From Book
 
-User:
 
 Create User User_Name
 Identified By 1234
